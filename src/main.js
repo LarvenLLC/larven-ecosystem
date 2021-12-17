@@ -14,7 +14,7 @@ const app = new App({
 			},
 			{
 				name: 'Notion',
-				url: 'https://www.notion.so/',
+				url: 'https://larven.notion.site/',
 				description: 'The all-in-one workspace for your notes, tasks, wikis, and databases.',
 				logo: 'https://www.notion.so/favicon.ico',
 				image: 'https://cdn.cdnlogo.com/logos/n/50/notion.svg'
