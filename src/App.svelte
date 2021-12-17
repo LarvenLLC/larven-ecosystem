@@ -10,7 +10,7 @@
 	<p>Please use company mail (@larven.co.tz) for company related activities</p>
 	<div class="row">
 		{#each softwares as software}
-			<div class="col col-4">
+			<div class="col col-12 md-6 lg-4">
 				<Card title={software.name} subTitle={software.description}>
 					<p slot="header">
 						<img
@@ -21,7 +21,7 @@
 						/>
 					</p>
 					<p slot="bottom">
-						<Button href={software.url} target="_blank">
+						<Button href={software.url} external>
 							Go to {software.name}
 						</Button>
 					</p>
@@ -33,10 +33,7 @@
 
 <style>
 	main {
-		text-align: center;
 		padding: 1em;
-		max-width: 240px;
-		margin: 0 auto;
 	}
 
 	.margin-auto {
