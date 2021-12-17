@@ -21,7 +21,7 @@
 						/>
 					</p>
 					<p slot="bottom">
-						<Button href={software.url} target="_blank">
+						<Button href={software.url} external>
 							Go to {software.name}
 						</Button>
 					</p>
