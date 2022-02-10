@@ -10,22 +10,20 @@
 	<p>Please use company mail (@larven.co.tz) for company related activities</p>
 	<div class="row">
 		{#each softwares as software}
-			<div class="col col-12 md-6 lg-4">
-				<Card title={software.name} subTitle={software.description}>
-					<p slot="header">
-						<img
-							src={software.image}
-							style="height: 80px;"
-							class="margin-auto"
-							alt={software.name}
-						/>
-					</p>
-					<p slot="bottom">
-						<Button href={software.url} external>
-							Go to {software.name}
-						</Button>
-					</p>
-				</Card>
+			<div class="col col-12 md-4 lg-3">
+				<a href={software.url} target="_blank" rel="noopener noreferrer" title={software.description}>
+					<Card subTitle={`Go to ${software.name}`}>
+						<p slot="header">
+							<img
+								src={software.image}
+								style="height: 80px;"
+								class="margin-auto"
+								alt={software.name}
+								title={software.name}
+							/>
+						</p>
+					</Card>
+				</a>
 			</div>
 		{/each}
 	</div>
