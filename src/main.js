@@ -94,12 +94,12 @@ const app = new App({
 				departments: ['Product', 'Technology', 'Marketing']
 			},
 			{
-				name: 'Dropbox',
-				url: 'https://www.dropbox.com/',
-				description: 'A cloud storage service.',
-				logo: 'https://www.dropbox.com/favicon.ico',
-				image: 'https://cdn.cdnlogo.com/logos/d/36/dropbox.svg',
-				departments: ['Product', 'Marketing', 'Sales', 'Support', 'Technology', 'Human Resources']
+				name: 'Yandex Connect',
+				url: 'https://connect.yandex.com/',
+				description: 'A set of business services that includes corporate versions of Mail, Disk, and other applications.',
+				logo: 'https://connect.yandex.com/favicon.ico',
+				image: 'https://cdn.cdnlogo.com/logos/y/82/yandex.svg',
+				departments: ['Product', 'Marketing', 'Sales', 'Support', 'Technology', 'Human Resources', 'Communications']
 			},
 			{
 				name: 'Tenda Mpya',
