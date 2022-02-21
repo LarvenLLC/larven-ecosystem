@@ -117,6 +117,9 @@ const app = new App({
 				image: 'https://zabuni.co.tz/storage/setting/1620593171.png',
 				departments: ['Communications', 'Legal', 'Support']
 			},
+			// medium
+			// canva
+			// figma
 		],
 	}
 });
