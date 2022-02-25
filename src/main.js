@@ -118,8 +118,32 @@ const app = new App({
 				departments: ['Communications', 'Legal', 'Support']
 			},
 			// medium
+			{
+				name: 'Medium',
+				url: 'https://medium.com/',
+				description: 'A platform for publishing articles.',
+				logo: 'https://medium.com/favicon.ico',
+				image: 'https://cdn.cdnlogo.com/logos/m/66/medium-m.svg',
+				departments: ['Communications', 'Marketing', 'Sales']
+			},
 			// canva
+			{
+				name: 'Canva',
+				url: 'https://canva.com/',
+				description: 'A platform for creating and sharing beautiful designs.',
+				logo: 'https://canva.com/favicon.ico',
+				image: 'https://cdn.cdnlogo.com/logos/c/29/canva.png',
+				departments: ['Product', 'Marketing', 'Sales']
+			},
 			// figma
+			{
+				name: 'Figma',
+				url: 'https://www.figma.com/',
+				description: 'A vector graphics editor and prototyping tool.',
+				logo: 'https://www.figma.com/favicon.ico',
+				image: 'https://cdn.cdnlogo.com/logos/f/54/figma.svg',
+				departments: ['Product', 'Marketing', 'Sales']
+			},
 		],
 	}
 });
