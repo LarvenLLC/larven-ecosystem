@@ -1,12 +1,12 @@
 <script>
 	import "papercss/dist/paper.min.css";
-	import { Button, Card } from "spaper";
+	import { Badge, Card } from "spaper";
 	export let name;
 	export let softwares;
 </script>
 
 <main>
-	<h1>{name} software ecosystem</h1>
+	<h1 style="font-size: 3rem; margin-top: 0">{name} software ecosystem</h1>
 	<p>Please use company mail (@larven.co.tz) for company related activities</p>
 	<div class="row">
 		{#each softwares as software}
@@ -27,6 +27,10 @@
 			</div>
 		{/each}
 	</div>
+	<!-- count of softwares -->
+	<p>
+		<Badge type="secondary">{softwares.length}</Badge> softwares
+	</p>	
 </main>
 
 <style>
