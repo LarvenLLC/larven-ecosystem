@@ -23,7 +23,7 @@ const app = new App({
 			},
 			{
 				name: 'Trello',
-				url: 'https://trello.com/b/3S8Dgl8K/currents',
+				url: 'https://trello.com/larvenincsworkspace',
 				description: 'A collaborative project management tool for teams.',
 				logo: 'https://trello.com/favicon.ico',
 				image: 'https://cdn.cdnlogo.com/logos/t/55/trello.svg',
