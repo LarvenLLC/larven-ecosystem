@@ -145,6 +145,7 @@ const app = new App({
 				departments: ['Product', 'Marketing', 'Sales']
 			},
 			// tawk.to
+			// play console
 		],
 	}
 });
