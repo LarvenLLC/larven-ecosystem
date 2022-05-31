@@ -144,6 +144,7 @@ const app = new App({
 				image: 'https://cdn.cdnlogo.com/logos/f/54/figma.svg',
 				departments: ['Product', 'Marketing', 'Sales']
 			},
+			// gmail, docs, aws
 		],
 	}
 });
